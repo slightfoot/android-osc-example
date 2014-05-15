@@ -1,0 +1,23 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal"
+	tools:context="com.demondevelopers.example.osc.MainActivity"
+	>
+	<com.demondevelopers.example.osc.OscSurfaceView
+		android:id="@+id/osc_surface_view"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background="#CC0000"
+		/>
+	<com.demondevelopers.example.osc.OscView
+		android:id="@+id/osc_view"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:background="#00CC00"
+		/>
+</LinearLayout>
